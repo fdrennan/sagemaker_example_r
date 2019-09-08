@@ -32,12 +32,6 @@ configure_aws(
   config_data$aws$region
 )
 
-
-
-
-# AKIAWEUHS5MES75VBIOD
-# t/cCQ2o/sIkiHx8t7Tt8K2IL7T6vOKqlGznHPlFJ
-
 sagemaker <- import('sagemaker')
 session <- sagemaker$Session()
 bucket <- session$default_bucket()
