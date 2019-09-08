@@ -21,6 +21,7 @@ library(configr)
 
 config_data = configr::read.config('config.ini')
 
+# Find in py_config() the environment you created and paste it here.
 use_python('/Users/digitalfirstmedia/.virtualenvs/sage/bin/python')
 
 configure_aws(
