@@ -6,8 +6,7 @@ library(ggplot2)
 library(dplyr)
 library(configr)
 
-# Usefule functions
-
+# Useful functions
 
 # virtualenv_create('sage')
 
